@@ -1,0 +1,10 @@
+<script type="text/javascript" src="{$app->jsPath('app/project.js')}"></script>
+
+<div class="project__container">
+  {loop="$pictures"}
+  <div class="col-xs-12 picture__container">
+    <img class="img-responsive" alt="picture" src="/public/images/{$directory}/{$value}">
+    <p class="back--text">Back To Top</p>
+  </div>
+  {/loop}
+</div>

@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'BebasNeue';
+    src: url('/public/fonts/BebasNeueRegular.otf') format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+
+  width: 100%;
+	height: 100%;
+
+  background-color: #2a2a2a;
+}
+
+.row {
+  margin:0;
+}
+
+/***** HEADER ******/
+.header__container {
+  padding-top: 30px;
+}
+
+.header__container .header-link {
+  padding: 0 5px;
+  margin-top: 20px;
+}
+
+.header__container .header-link h3 {
+  margin: 0 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+
+  color: #ccc;
+  font-size: 22px;
+  font-family: 'BebasNeue';
+}
+
+.header__container .header-link h3:hover {
+  border-bottom: 1px solid #eee;
+  color: #eee;
+}
+
+/******** INDEX **************/
+.index__container {
+  margin-top: 50px;
+}
+
+.index__container .category__tile {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  height: 200px;
+  overflow: hidden;
+  cursor: pointer;
+
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.index__container .category__tile:hover:after {
+  height: 100%;
+  width: 100%;
+  display: block;
+  content: "";
+  background-color:rgba(255,255,255,0.05);
+}
+
+.index__container .category__tile .img-responsive {
+  margin: auto;
+}
+
+.index__container .category__tile .tile--title {
+  color:white;
+  font-family: 'BebasNeue';
+}
+
+/******* PROJECT ****************/
+.project__container {
+  margin-top: 50px;
+}
+
+.project__container .picture__container {
+  margin-bottom: 20px;
+}
+
+.project__container .picture__container .img-responsive {
+  margin: auto;
+}
+
+.project__container .picture__container .back--text {
+  text-align: center;
+  font-family: 'BebasNeue';
+  color: #ccc;
+  cursor: pointer;
+  font-size: 1.5em;
+}
+
+@media (max-width: 991px) {
+  .project__container .picture__container .back--text {
+    text-align: left;
+    font-size: 1.0em;
+  }
+}

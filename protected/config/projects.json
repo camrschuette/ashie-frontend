@@ -1,0 +1,67 @@
+[
+    {
+      "title" : "workbench",
+      "category" : "props",
+      "icon" : "workbench_icon.png"
+    },
+    {
+      "title" : "clown",
+      "category" : "character",
+      "icon" : "workbench_icon.png"
+    },
+    {
+      "title" : "cyclops",
+      "category" : "character",
+      "icon" : "workbench_icon.png"
+    },
+    {
+      "title" : "lav-25",
+      "category" : "props",
+      "icon" : "workbench_icon.png"
+    },
+    {
+      "title" : "minotaur",
+      "category" : "character",
+      "icon" : "workbench_icon.png"
+    },
+    {
+      "title" : "oil-drum",
+      "category" : "props",
+      "icon" : "workbench_icon.png"
+    },
+    {
+      "title" : "pigman",
+      "category" : "character",
+      "icon" : "workbench_icon.png"
+    },
+    {
+      "title" : "studies",
+      "category" : "misc",
+      "icon" : "workbench_icon.png"
+    },
+    {
+      "title" : "substances",
+      "category" : "misc",
+      "icon" : "workbench_icon.png"
+    },
+    {
+      "title" : "toast",
+      "category" : "misc",
+      "icon" : "workbench_icon.png"
+    },
+    {
+      "title" : "tree",
+      "category" : "props",
+      "icon" : "workbench_icon.png"
+    },
+    {
+      "title" : "victorian",
+      "category" : "environment",
+      "icon" : "workbench_icon.png"
+    },
+    {
+      "title" : "zombie",
+      "category" : "character",
+      "icon" : "workbench_icon.png"
+    }
+]

@@ -1,0 +1,10 @@
+<div class="index__container">
+  {loop="$projects"}
+    <div class='col-xs-12 col-sm-5 col-md-5 {if="$counter%2==0"}col-sm-offset-1{/if}'>
+      <div class="category__tile"
+           style="background-image: url(/public/images/{$value->title}/{$value->icon})"
+           onclick="location.href='/project/{$value->title}'"
+      ></div>
+    </div>
+  {/loop}
+</div>
