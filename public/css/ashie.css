@@ -105,3 +105,95 @@ html, body {
     font-size: 1.0em;
   }
 }
+
+/********** CONTACT ***************/
+.contact__container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.contact__container p {
+  margin-left: 150px;
+  margin-right: 150px;
+  font-family: "BebasNeue";
+  color: #fff;
+}
+
+.contact__container span {
+  font-style: italic;
+}
+
+.contact__container ul {
+  list-style-type: square;
+  color: #fff;
+  list-style-position: inside;
+}
+
+.contact__container hr {
+  display: block;
+  margin-top: 0px;
+  margin-left: 150px;
+  margin-right: 150px;
+  border-style: inset;
+  border-width: 1px;
+}
+
+.contact__container form {
+  margin-left: 190px;
+  margin-right: 150px;
+  font-family: "BebasNeue";
+  font-size: 20px;
+}
+
+.contact__container input {
+  font-family: "Arial";
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.contact__container textarea {
+  font-family: "Arial";
+  font-size: 16px;
+}
+
+.contact__container .contact--title {
+  font-size: 70px;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.contact__container .contact--email {
+  font-size: 50px;
+  text-align: center;
+  font-style: italic;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.contact__container .contact--resume {
+  font-size: 25px;
+  text-align: center;
+  font-style: italic;
+  margin-top: 0px;
+}
+
+.contact__container .contact--info {
+  font-size: 40px;
+  font-style: italic;
+  margin-bottom: 0px;
+}
+
+.contact__container .contact--list {
+  font-size: 30px;
+  margin-bottom: 0px;
+  color: #fff;
+}
+
+.contact__container .contact--listitem {
+  font-size: 20px;
+  font-family: "Tahoma";
+  color: #fff;
+  font-weight: lighter;
+}

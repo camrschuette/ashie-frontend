@@ -39,7 +39,11 @@ class FrontController extends Controller
 
   //CONTACT / RESUME
   public function contact(){
+    $app = App::Instance();
 
+    $view = new View('contact', "");
+
+    return $view;
   }
 
   //PROJECT INDIVIDUAL
